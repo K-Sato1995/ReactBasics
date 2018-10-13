@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import '../style/style.css';
 import Navbar from './Navbar';
-import About from './About';
+import StateProps from './StateProps';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <h1>Simple Routing</h1>
-        <About />
+          <h3>ClassName</h3>
+           <p>Class should be called ClassName in React</p>
+        <StateProps hello = {'Hello from App'}/>
       </div>
     );
   }
