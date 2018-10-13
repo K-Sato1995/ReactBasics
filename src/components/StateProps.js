@@ -11,6 +11,7 @@ class StateProps extends React.Component {
   render(){
     return(
       <div className = 'about'>
+        <h2>State and Props</h2>
         <h3>My name is</h3>
         { this.state.name }
         <h3>I am</h3>
