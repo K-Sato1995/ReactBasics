@@ -14,7 +14,7 @@ class Functions extends React.Component {
 
   render(){
     return (
-      <div ClassName = 'functions'>
+      <div className = 'functions'>
         <h2>Functions</h2>
         <h3>Change the state of the same component</h3>
         <input onChange = {this.handleChange} placeholder ='Put some word here'/>

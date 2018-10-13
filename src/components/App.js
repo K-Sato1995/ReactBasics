@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import '../style/style.css';
 import Navbar from './Navbar';
 import StateProps from './StateProps';
 import Functions from './Functions';
 import Page1 from './Routing/Page1';
 import Page2 from './Routing/Page2';
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import Ajax from './Ajax';
 
 class App extends Component {
   constructor(){
@@ -36,10 +37,11 @@ class App extends Component {
              <li><Link to = "/Page1">Page1</Link></li>
              <li><Link to = "/Page2">Page2</Link></li>
             </ul>
-            <Route exact path='/Page1' component={Page1}/>
+            <Route exact path='/Page1' render ={ () => <Page1 item = {"Item from App"}/>}/>
             <Route path='/Page2' component={Page2}/>
           </div>
         </Router>
+        <Ajax />
       </div>
     );
   }
