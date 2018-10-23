@@ -7,6 +7,7 @@ import Functions from './Functions';
 import Page1 from './Routing/Page1';
 import Page2 from './Routing/Page2';
 import Ajax from './Ajax';
+import LifeCycle from './LifeCycle';
 
 class App extends Component {
   constructor(){
@@ -42,6 +43,7 @@ class App extends Component {
           </div>
         </Router>
         <Ajax />
+        <LifeCycle />
       </div>
     );
   }
