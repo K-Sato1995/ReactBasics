@@ -8,6 +8,7 @@ import Page1 from './Routing/Page1';
 import Page2 from './Routing/Page2';
 import Ajax from './Ajax';
 import LifeCycle from './LifeCycle';
+import Refs from './Refs';
 
 class App extends Component {
   constructor(){
@@ -44,6 +45,7 @@ class App extends Component {
         </Router>
         <Ajax />
         <LifeCycle />
+        <Refs />
       </div>
     );
   }
