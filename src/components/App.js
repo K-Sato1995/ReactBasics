@@ -29,23 +29,25 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-              <h3>Style</h3>
-               <p>Class should be called ClassName in React</p>
-            <StateProps hello = {'Hello from App'}/>
-            <Functions funcFromApp = {this.handleChange}/>
-            <h2>{this.state.name}</h2>
-            <h2>Routing</h2>
-            <ul>
-             <li><Link to = "/Page1">Page1</Link></li>
-             <li><Link to = "/Page2">Page2</Link></li>
-            </ul>
-            <Route exact path='/Page1' render ={ () => <Page1 item = {"Item from App"}/>}/>
-            <Route path='/Page2' component={Page2}/>
+            <div className = 'container'>
+              <h2>Style</h2>
+              <p>Class should be called ClassName in React</p>
+              <StateProps hello = {'Hello from App'}/>
+              <Functions funcFromApp = {this.handleChange}/>
+              <h2>{this.state.name}</h2>
+              <h2>Routing</h2>
+              <ul>
+                <li><Link to = "/Page1">Page1</Link></li>
+                <li><Link to = "/Page2">Page2</Link></li>
+              </ul>
+              <Route exact path='/Page1' render ={ () => <Page1 item = {"Item from App"}/>}/>
+              <Route path='/Page2' component={Page2}/>
+              <Ajax />
+              <LifeCycle />
+              <Refs />
+            </div>
           </div>
         </Router>
-        <Ajax />
-        <LifeCycle />
-        <Refs />
       </div>
     );
   }
