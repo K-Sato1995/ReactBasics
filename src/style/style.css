@@ -1,15 +1,13 @@
-.App {
-  border: solid 1px #efefef;
-}
-
 h2 {
+  margin-top: 50px;
   padding-bottom: 10px;
   border-bottom: solid 2px #efefef;
+  color: #282C34;
 }
 
 .navbar {
   border-bottom: solid 1px #efefef;
-  background-color: #fff;
+  background-color: #282C34;
   position: fixed;
   top: 0;
   height: 60px;
@@ -24,7 +22,8 @@ h2 {
 
 .container {
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 80px;
+  margin-bottom: 50px;
   width: 90%;
   z-index: 0;
 }
@@ -35,4 +34,10 @@ h2 {
 
 .page2 {
   color: blue;
+}
+
+footer {
+  border-top: solid 1px #efefef;
+  background-color: #282C34;
+  height: 200px;
 }

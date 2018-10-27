@@ -14,7 +14,7 @@ class App extends Component {
   constructor(){
     super()
     this.state = {
-      name: 'App Default'
+      name: 'App Default state.name'
     }
     this.handleChange = this.handleChange.bind(this);
   }
@@ -30,11 +30,11 @@ class App extends Component {
           <div>
             <Navbar />
             <div className = 'container'>
-              <h2>Style</h2>
-              <p>Class should be called ClassName in React</p>
+              <h2 id = "#Style">Style</h2>
+              <p>Class should be called <strong>ClassName</strong> in React</p>
               <StateProps hello = {'Hello from App'}/>
               <Functions funcFromApp = {this.handleChange}/>
-              <h2>{this.state.name}</h2>
+              <h3>{this.state.name}</h3>
               <h2>Routing</h2>
               <ul>
                 <li><Link to = "/Page1">Page1</Link></li>
@@ -46,6 +46,7 @@ class App extends Component {
               <LifeCycle />
               <Refs />
             </div>
+            <footer></footer>
           </div>
         </Router>
       </div>

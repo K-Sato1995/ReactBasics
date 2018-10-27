@@ -1,0 +1,10 @@
+h2	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^h2 {$/;"	function	line:1
+.navbar	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^.navbar {$/;"	function	line:8
+.navbar > h1	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^.navbar > h1 {$/;"	function	line:18
+.container	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^.container {$/;"	function	line:23
+.page1	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^.page1 {$/;"	function	line:31
+.page2	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^.page2 {$/;"	function	line:35
+footer	/Users/katsuki/Desktop/React/ReactBasics/src/style/style.css	/^footer {$/;"	function	line:39
+constructor	/Users/katsuki/Desktop/React/ReactBasics/src/components/App.js	/^  constructor(){$/;"	function	line:14
+class.state.name	/Users/katsuki/Desktop/React/ReactBasics/src/components/App.js	/^    this.state = {$/;"	property	line:16
+render	/Users/katsuki/Desktop/React/ReactBasics/src/components/App.js	/^  render() {$/;"	function	line:26
