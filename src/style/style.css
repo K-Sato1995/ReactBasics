@@ -36,6 +36,14 @@ h2 {
   color: blue;
 }
 
+.highlight {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  border: solid 1px #ccc;
+  background-color: #F8F8F8;
+}
+
 footer {
   border-top: solid 1px #efefef;
   background-color: #282C34;

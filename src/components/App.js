@@ -32,6 +32,9 @@ class App extends Component {
             <div className = 'container'>
               <h2 id = "#Style">Style</h2>
               <p>Class should be called <strong>ClassName</strong> in React</p>
+              <div className = 'highlight'>
+                class → className
+              </div>
               <StateProps hello = {'Hello from App'}/>
               <Functions funcFromApp = {this.handleChange}/>
               <h3>{this.state.name}</h3>
