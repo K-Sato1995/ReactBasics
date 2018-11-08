@@ -44,6 +44,18 @@ h2 {
   background-color: #F8F8F8;
 }
 
+.example {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #efefef;
+  width: 50%;
+}
+
+.example > h2 {
+  margin: 0;
+  color: #282C34;
+}
+
 footer {
   border-top: solid 1px #efefef;
   background-color: #282C34;

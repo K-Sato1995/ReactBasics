@@ -24,6 +24,13 @@ class App extends Component {
   }
 
   render() {
+    const codesnippet1 = (
+      `
+      <div className = 'style'>
+        <h1 className = 'title-ex'>Title</h1>
+      </div>
+      `
+    )
     return (
       <div className="App">
         <Router>
@@ -32,9 +39,11 @@ class App extends Component {
             <div className = 'container'>
               <h2 id = "#Style">Style</h2>
               <p>Class should be called <strong>ClassName</strong> in React</p>
-              <div className = 'highlight'>
-                class → className
-              </div>
+              <pre>
+                <div className = 'highlight'>
+                  { codesnippet1 }
+                </div>
+              </pre>
               <StateProps hello = {'Hello from App'}/>
               <Functions funcFromApp = {this.handleChange}/>
               <h3>{this.state.name}</h3>
