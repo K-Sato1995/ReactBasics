@@ -24,6 +24,7 @@ class App extends Component {
   }
 
   render() {
+    console.log('Rendered')
     const codesnippet1 = (
       `
       <div className = 'style'>
@@ -46,12 +47,17 @@ class App extends Component {
               </pre>
               <StateProps hello = {'Hello from App'}/>
               <Functions funcFromApp = {this.handleChange}/>
-              <h3>{this.state.name}</h3>
+              <h4>Name: {this.state.name}</h4>
+              <p>React calls <span className = 'code'>render()</span> method every time the state has changed. </p>
+              <p>In this case, <span className = 'code'>Name</span> is a state of the App component and it(Name) gets changed with <span className = 'code'>setState</span> every time you type something in the input bar.</p>
+              <p>That means, React calls <span className = 'code'>render()</span> method every time you type something in the input bar!!</p>
+              <p>Note: Since <span className = 'code'>Name</span> is a state of the App component, React only calls the <span className = 'code'>render()</span> method of App!!</p>
               <h2>Routing</h2>
               <ul>
                 <li><Link to = "/Page1">Page1</Link></li>
                 <li><Link to = "/Page2">Page2</Link></li>
               </ul>
+              <p>You can check <a href = 'https://k-blog0130.herokuapp.com/posts/58'>this post</a> for details.</p>
               <Route exact path='/Page1' render ={ () => <Page1 item = {"Item from App"}/>}/>
               <Route path='/Page2' component={Page2}/>
               <Ajax />

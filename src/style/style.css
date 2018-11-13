@@ -56,6 +56,11 @@ h2 {
   color: #282C34;
 }
 
+.code {
+  background-color: #ffffcc;
+  padding: 2px;
+}
+
 footer {
   border-top: solid 1px #efefef;
   background-color: #282C34;
