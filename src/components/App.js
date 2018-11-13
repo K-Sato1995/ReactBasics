@@ -10,6 +10,7 @@ import Ajax from './Ajax';
 import LifeCycle from './LifeCycle';
 import Refs from './Refs';
 import SimpleCondition from './SimpleCondition';
+import Maps from './Maps';
 
 class App extends Component {
   constructor(){
@@ -65,6 +66,7 @@ class App extends Component {
               <LifeCycle />
               <Refs />
               <SimpleCondition />
+              <Maps />
             </div>
             <footer></footer>
           </div>
