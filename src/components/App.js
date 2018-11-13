@@ -9,6 +9,7 @@ import Page2 from './Routing/Page2';
 import Ajax from './Ajax';
 import LifeCycle from './LifeCycle';
 import Refs from './Refs';
+import SimpleCondition from './SimpleCondition';
 
 class App extends Component {
   constructor(){
@@ -63,6 +64,7 @@ class App extends Component {
               <Ajax />
               <LifeCycle />
               <Refs />
+              <SimpleCondition />
             </div>
             <footer></footer>
           </div>
