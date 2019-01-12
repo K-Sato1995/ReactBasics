@@ -20,6 +20,31 @@ h2 {
   color: #61DAFB;
 }
 
+.navbar > ul {
+  position: absolute;
+  top: 7px;
+  left: 200px;
+}
+
+.navbar > ul > li {
+  margin: 5px;
+  display: inline-block;
+}
+
+
+.navbar > ul > li > a {
+  color: #CFD0D1;
+  text-decoration: none;
+}
+
+.navbar > ul > li > a:hover {
+  color: #80D8F7;
+}
+
+.navbar > ul > span {
+  color: #CFD0D1;
+}
+
 .container {
   margin: 0 auto;
   margin-top: 80px;

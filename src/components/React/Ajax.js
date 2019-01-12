@@ -10,7 +10,7 @@ class Ajax extends React.Component{
   //Fetch data from MyApi(https://github.com/K-Sato1995/MyApi)
   //Run rails s -p 8000 first
   getData = () => {
-    fetch('http://localhost:8000/api/v1/topics')
+    fetch('https://k-blog0130.herokuapp.com/en/api/v1/posts')
     .then(response => response.json())
     .then(data => {
       console.log(data.data)
@@ -25,7 +25,7 @@ class Ajax extends React.Component{
     return(
       <div>
         <h2>How to make an ajax request in React</h2>
-        <p>Fetch data from <a href = 'https://github.com/K-Sato1995/MyApi'>MyApi</a>. Run rails s -p 8000 first</p>
+        <p>Fetch data from <a href = 'https://k-blog0130.herokuapp.com/en/'>MyBlog's Api</a>. </p>
         <button onClick = { this.getData }>Get Data</button>
         { list }
       </div>
